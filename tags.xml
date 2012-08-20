@@ -1,0 +1,32 @@
+<xml>
+<tag name="head" position="0" tex="\documentclass[%font%,%paper%]{%type%}" parity="3"/>
+<tag name="head" position="1" tex="" parity="0"/>
+<tag name="title" position="0" tex="\title{" parity="0" />
+<tag name="title" position="1" tex="}" parity="0" />
+<tag name="author" position="0" tex="\author{" parity="0" />
+<tag name="author" position="1" tex="}" parity="0" />
+<tag name="body" position="0" tex="\begin{document}  \maketitle" parity="0" />
+<tag name="body" position="1" tex="\end{document}" parity="0" />
+<tag name="contents" position="0" tex="\tableofcontents" parity="0" />
+<tag name="contents" position="1" tex="" parity="0" />
+<tag name="section" position="0" tex="\section{%title%}" parity="1" />
+<tag name="section" position="1" tex="" parity="0" />
+<tag name="subsection" position="0" tex="\subsection{%title%}" parity="1" />
+<tag name="subsection" position="1" tex="" parity="0" />
+<tag name="subsubsection" position="0" tex="\subsubsection{%title%}" parity="1" />
+<tag name="subsubsection" position="1" tex="" parity="0" />
+<tag name="table" position="0" tex="\begin{tabular}{%format%}" parity="1" />
+<tag name="table" position="1" tex="\end{tabular}" parity="0" />
+<tag name="tr" position="0" tex=" " parity="0" />
+<tag name="tr" position="1" tex="\" parity="0" />
+<tag name="line" position="0" tex="\hline" parity="0" />
+<tag name="line" position="1" tex="" parity="0" />
+<tag name="multicol" position="0" tex="\multicolumn{%span%}{%format%}{" parity="2" />
+<tag name="multicol" position="1" tex="}" parity="0" />
+<tag name="multirow" position="0" tex="\multirow{%span%}{%format%}{" parity="2" />
+<tag name="multirow" position="1" tex="}" parity="0" />
+<tag name="center" position="0" tex="\begin{center}" parity="0" />
+<tag name="center" position="1" tex="\end{center}" parity="0" />
+<tag name="td" position="0" tex="&amp;" parity="0"/>
+<tag name="td" position="1" tex="" parity="0"/>
+</xml>
